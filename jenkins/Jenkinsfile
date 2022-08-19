@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GH_TOKEN = "29d221ef372c887db854ee66cde77bff199a9df9"
+        GH_TOKEN = "bda63c08c449d56746b1c9ca702f29fb592dbc01"
         PATH = "/opt/sonar-scanner/bin:$PATH"
     }
     stages {
